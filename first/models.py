@@ -13,3 +13,4 @@ class StudentInfo(models.Model):
     department = models.CharField(max_length=50)
     year = models.IntegerField()
     dob = models.DateField() 
+    student_id = models.IntegerField()
